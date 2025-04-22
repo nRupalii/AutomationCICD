@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="MyECommerceTest">
+    <listeners>
+        <listener class-name="Ecommeres.TestCompounts.Listeners"></listener>
+    </listeners>
+    <test name="BaseTest">
+        <classes>
+            <class name="Ecommeres.TestCompounts.BaseTest"/> <!-- Update this with your test class -->
+        </classes>
+    </test>
+    <test name="ErrorValidastionsTest">
+        <classes>
+            <class name="Ecommerce.tests.ErrorValidastions"/>
+        </classes>
+    </test>
+    <test name="SubmitTestOrder">
+        <classes>
+            <class name="Ecommerce.tests.SubmitTestOrder"/>
+        </classes>
+    </test>
+
+</suite>

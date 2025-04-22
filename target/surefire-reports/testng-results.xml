@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-20T22:40:19 IST" name="MyECommerceTest" finished-at="2025-04-20T22:41:06 IST" duration-ms="46501">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitTestOrder.SubmitOrder(java.util.HashMap)[pri:0, instance:Ecommerce.tests.SubmitTestOrder@7dfd3c81]" name="SubmitOrder" class="Ecommerce.tests.SubmitTestOrder"/>
+      </group> <!-- Purchase -->
+      <group name="ErrorHandling">
+        <method signature="ErrorValidastions.LoginErrorValidastion()[pri:0, instance:Ecommerce.tests.ErrorValidastions@6f204a1a]" name="LoginErrorValidastion" class="Ecommerce.tests.ErrorValidastions"/>
+      </group> <!-- ErrorHandling -->
+    </groups>
+    <test started-at="2025-04-20T22:40:19 IST" name="BaseTest" finished-at="2025-04-20T22:40:19 IST" duration-ms="10">
+    </test> <!-- BaseTest -->
+    <test started-at="2025-04-20T22:40:19 IST" name="ErrorValidastionsTest" finished-at="2025-04-20T22:40:52 IST" duration-ms="32952">
+      <class name="Ecommerce.tests.ErrorValidastions">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Ecommerce.tests.ErrorValidastions@6f204a1a]" started-at="2025-04-20T22:40:19 IST" name="launchApplication" finished-at="2025-04-20T22:40:27 IST" duration-ms="7816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidastion()[pri:0, instance:Ecommerce.tests.ErrorValidastions@6f204a1a]" started-at="2025-04-20T22:40:27 IST" name="LoginErrorValidastion" finished-at="2025-04-20T22:40:27 IST" duration-ms="404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidastion -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Ecommerce.tests.ErrorValidastions@6f204a1a]" started-at="2025-04-20T22:40:27 IST" name="launchApplication" finished-at="2025-04-20T22:40:32 IST" duration-ms="4422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidastion()[pri:0, instance:Ecommerce.tests.ErrorValidastions@6f204a1a]" started-at="2025-04-20T22:40:32 IST" name="ProductErrorValidastion" finished-at="2025-04-20T22:40:52 IST" duration-ms="20259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidastion -->
+      </class> <!-- Ecommerce.tests.ErrorValidastions -->
+    </test> <!-- ErrorValidastionsTest -->
+    <test started-at="2025-04-20T22:40:19 IST" name="SubmitTestOrder" finished-at="2025-04-20T22:41:06 IST" duration-ms="46501">
+      <class name="Ecommerce.tests.SubmitTestOrder">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Ecommerce.tests.SubmitTestOrder@7dfd3c81]" started-at="2025-04-20T22:40:19 IST" name="launchApplication" finished-at="2025-04-20T22:40:27 IST" duration-ms="7215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:Ecommerce.tests.SubmitTestOrder@7dfd3c81]" started-at="2025-04-20T22:40:27 IST" name="SubmitOrder" data-provider="getData" finished-at="2025-04-20T22:40:47 IST" duration-ms="19872" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, product=ZARA COAT 3, email=anshika@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Ecommerce.tests.SubmitTestOrder@7dfd3c81]" started-at="2025-04-20T22:40:47 IST" name="launchApplication" finished-at="2025-04-20T22:40:51 IST" duration-ms="4861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:Ecommerce.tests.SubmitTestOrder@7dfd3c81]" started-at="2025-04-20T22:40:51 IST" name="SubmitOrder" data-provider="getData" finished-at="2025-04-20T22:41:06 IST" duration-ms="14271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, product=ADIDAS ORIGINAL, email=shetty@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+      </class> <!-- Ecommerce.tests.SubmitTestOrder -->
+    </test> <!-- SubmitTestOrder -->
+  </suite> <!-- MyECommerceTest -->
+</testng-results>

@@ -1,0 +1,10 @@
+Ecommeres\pageobjects\CartPage.class
+Ecommeres\pageobjects\OrderPage.class
+Ecommeres\pageobjects\CleanCache.class
+Ecommeres\resources\ExtentReporterNG.class
+Ecommeres\AbstractCompounts\AbstractCompounts.class
+Ecommeres\pageobjects\ProductCatloag.class
+Ecommeres\pageobjects\ConfirmationPage.class
+Ecommerce\BaseClass.class
+Ecommeres\pageobjects\CheckoutPage.class
+Ecommeres\pageobjects\LandingPage.class
